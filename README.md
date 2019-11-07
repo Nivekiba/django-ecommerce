@@ -8,6 +8,7 @@ Make sure you have at least python 3.7 and run the following commands
 git clone && cd django-ecommerce
 python -m venv .
 source ./bin/activate
+pip install -r requirements.txt
 python manage.py runserver
 ```
 
